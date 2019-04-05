@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <script src ="js/jquery-3.3.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <title>굿네이버스</title>
+  <script>
+	$(function(){
+		$(".main-visual-list").bxSlider({auto:true});
+	});
+	
+	$(document).ready(function(){
+		//$("ul.sub").hide();
+			//$("#main_lnb>ul>li").hover(function(){
+				//var i = $(this).index();
+				//$("#main_lnb>ul>li>ul").eq(i).stop().slideDown();
+			//},function(){
+				//$("ul.sub").stop().slideUp();
+			//});
+			
+			 $("ul.sub").hide();
+			 $("#main_lnb>ul>li").hover(function(){
+			 var i = $(this).index();
+			 $("#main_lnb>ul>li>ul").eq(i).stop().slideDown();
+			 $("ul.sub").stop().slideDown();
+			 },function(){
+				$("ul.sub").stop().slideUp();
+			});
+		});
+		
+	
+  </script>
+ </head>
+ <body>
+ 	<!-- header -->
+	<div id="wrap">
+		<header id="wrap_header">
+		<p class="skip-menu"><a href="container">본문바로가기</a></p>
+				<div id="gnb_wrap">
+					<nav id="gnb">
+						<ul class="util-menu"> 
+							<li><a href="#">Home</a></li>
+							<li><a href="#">로그인</a></li>
+							<li><a href="#">회원가입</a></li>
+						</ul>
+					</nav>
+				</div>
+			<div id="main_header">
+				<div class="container">
+					<h1 id="logo"><a href="#"><img src="images/logo.png" alt="logo"></a></h1>
+				</div>
+					<!-- <div id="m_btn">
+						<button><a href="#"><img src="images/sch_btn.png" alt="search"></a></button>
+						<a href=""></a>
+					</div> -->
+			</div>
+			<div id="main_lnb_wrap">
+				<div id="main_lnb">
+					<ul id="nav">
+						<li class="m1">
+							<a href="#">기관</a>
+								<ul class="sub">
+									<li><a href="">굿네이버스는</a></li>
+									<li><a href="">국내/해외지부</a></li>
+									<li><a href="">투명경영</a></li>
+								</ul>
+						</li>
+						<li class="m2">
+							<a href="#">사업</a>
+								<ul class="sub">
+									<li><a href="">국내복지사업</a></li>
+									<li><a href="">사회개발교육사업</a></li>
+									<li><a href="">국제구호개발사업</a></li>
+									<li><a href="">인도적지원사업</a></li>
+									<li><a href="">대북지원사업</a></li>
+									<li><a href="">아동권리연구소</a></li>
+								</ul>
+						</li>
+						<li class="m3">
+							<a href="#">후원</a>
+								<ul class="sub">
+									<li><a href="">캠페인 후원</a></li>
+									<li><a href="">해외아동 1:1결연</a></li>
+									<li><a href="">사업후원</a></li>
+									<li><a href="">기업후원</a></li>
+									<li><a href="">일시후원</a></li>
+									<li><a href="">고액후원</a></li>
+								</ul>
+						</li>
+						<li class="m4">
+							<a href="#">참여</a>
+								<ul class="sub">
+									<li><a href="">좋은이웃이야기</a></li>
+									<li><a href="">좋은이웃모임 참여</a></li>
+									<li><a href="">나눔 이벤트</a></li>
+									<li><a href="">후원 추천</a></li>
+									<li><a href="">회원자료실</a></li>
+									<li><a href="">후원가이드</a></li>
+								</ul>
+						</li>
+						<li class="m5">
+							<a href="#">소식</a>
+								<ul class="sub">
+									<li><a href="">공지/뉴스</a></li>
+									<li><a href="">스토리캐스트</a></li>
+									<li><a href="">언론이야기</a></li>
+									<li><a href="">나눔갤러리</a></li>
+									<li><a href="">영상보기(VOD)</a></li>
+								</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<div id="container">
+			<div id="main-visual">
+				<ul class="main-visual-list">
+					<li><a href="#"><img src="images/main_slider_1.jpg" alt=""></a></li>
+					<li><a href="#"><img src="images/main_slider_2.jpg" alt=""></a></li>
+				</ul>
+			</div>
+			<div id="board">
+				<article id="main_article">
+					<h2 class="h2_title">굿네이버스<br>소식이<br>궁금하세요?</h2>
+					<div class="content">
+							<ul>
+								<li>
+									<div class="card">
+										<div class="card-body">
+											<h3 class="card_title">보도자료</h3>
+											<p class="card-text">굿네이버스 엘살바도르,<br>‘한국-엘살바도르 청소년<br>센터’ 홍보 및 후원행사 진행</p>
+											<img src="images/board_link_btn.png" alt="btn">
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="card">
+										<div class="card-body">
+											<h3 class="card_title">보도자료</h3>
+											<p class="card-text">굿네이버스 엘살바도르,<br>‘한국-엘살바도르 청소년<br>센터’ 홍보 및 후원행사 진행</p>
+											<img src="images/board_link_btn.png" alt="btn">
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="card">
+										<div class="card-body">
+											<h3 class="card_title">보도자료</h3>
+											<p class="card-text">굿네이버스 엘살바도르,<br>‘한국-엘살바도르 청소년<br>센터’ 홍보 및 후원행사 진행</p>
+											<img src="images/board_link_btn.png" alt="btn">
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="card">
+										<div class="card-body">
+											<h3 class="card_title">보도자료</h3>
+											<p class="card-text">굿네이버스 엘살바도르,<br>‘한국-엘살바도르 청소년<br>센터’ 홍보 및 후원행사 진행</p>
+											<img src="images/board_link_btn.png" alt="btn">
+										</div>
+									</div>
+								</li>
+								
+								<!-- <li>
+									<div class="card">
+										<div class="card-body">
+											<h3 class="card_title">보도자료</h3>
+											<p class="card-text">굿네이버스 엘살바도르,<br>‘한국-엘살바도르 청소년<br>센터’ 홍보 및 후원행사 진행</p>
+											<img src="images/board_link_btn.png" alt="btn">
+										</div>
+									</div>
+								</li> -->
+								
+							</ul>
+					</div>
+				</article>
+			</div>
+			<div class="content-1">
+				<div class="card-body">
+					<div class="card-text">
+						<ul>
+							<li class="title">Good Change For The World</li>
+							<li >굿네이버스는 2017년 총 지출금의 89.6%를<br> 국내외 아이들과 지역사회의 좋은 변화를 위해 사용했습니다. <br>(차년도 사업준비 비율 제외)</li>
+							<li class="link"><a href="#">굿네이버스는 어떤일을 하나요?</a></li>
+							<li class="link"><a href="#">후원금, 투명하게 사용되나요?</a></li>
+						</ul>
+					</div>
+					<div class="card-tail">
+						<img src="images/img-1.png" alt="89.6%">
+					</div>
+				</div>
+			</div>
+			<div class="content-2">
+				<h3>좋은 변화의 이야기</h3>
+				<ul>
+					<li>
+						<div class="card">
+							<img src="images/table.jpg" alt="사회공헌">
+							<div class="card-body">
+								<h4 class="card-title">사회공헌</h4>
+								<p class="card-text">건강한 식사는 아이들의 권리 입니다.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="card">
+							<img src="images/thanks.jpg" alt="사회공헌">
+							<div class="card-body">
+								<h4 class="card-title">사회공헌</h4>
+								<p class="card-text">건강한 식사는 아이들의 권리 입니다.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="card">
+							<img src="images/table.jpg" alt="사회공헌">
+							<div class="card-body">
+								<h4 class="card-title">사회공헌</h4>
+								<p class="card-text">건강한 식사는 아이들의 권리 입니다.</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="content-3">
+				<div class="news">
+					<ul>
+						<li class="first">
+							<a href="#" target="_blank" class="section1">
+								<div class="icons sec1"></div>
+								<div class="inner">
+									<p>제7회<br>가족그림편지쓰기대회</p>
+									<div class="arrow"></div>
+								</div>
+							</a>
+						</li>
+						<li class="second">
+							<a href="#" target="_blank" class="section2">
+								<div class="icons sec2"></div>
+								<div class="inner">
+									<p>제7회<br>가족그림편지쓰기대회</p>
+									<div class="arrow"></div>
+								</div>
+							</a>
+						</li>
+						<li class="third">
+							<a href="#" target="_blank" class="section3">
+								<div class="icons sec3"></div>
+								<div class="inner">
+									<p>제7회<br>가족그림편지쓰기대회</p>
+									<div class="arrow"></div>
+								</div>
+							</a>
+						</li>
+						<li class="fourth" >
+							<a href="#" target="_blank" class="section4">
+								<div class="icons sec4"></div>
+								<div class="inner">
+									<p>제7회<br>가족그림편지쓰기대회</p>
+									<div class="arrow"></div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer id="footer">
+		<div class="wrap-whole">
+			<div id="wrap-bottom">
+				<div class="container">
+					<div class="bottom-menu">
+						<ul>
+							<li><a href="#">개인정보 처리방침</a></li>
+							<li><a href="#">책임의 한계 및 법적고지</a></li>
+							<li><a href="#">이메일주소 무단수집거부</a></li>
+							<!-- <p><a href="#"><img src="images/common/footer-button.png" alt="top"></a></p> -->
+						</ul>
+					</div>
+					<div class="sns">
+						<ul>
+							<li class="blog"><a href="#" target="blank" title="새창">굿네이버스 블로그</a></li>
+							<li class="facebook"><a href="#" target="blank" title="새창">굿네이버스 페이스북</a></li>
+							<li class="instagram"><a href="#" target="blank" title="새창">굿네이버스 인스타그램</a></li>
+							<li class="twitter"><a href="#" target="blank" title="새창">굿네이버스 트위터</a></li>
+							<!-- <p><a href="#"><img src="images/common/footer-button.png" alt="top"></a></p> -->
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="wrap-footer">
+					<div class="container">
+						<div class="address">
+							<ul>
+								<li>서울 영등포구 버드나루로 13 굿네이버스 사회복지법인 굿네이버스 | 사업자등록번호 105-82-10319 | 대표자 조성천</li>
+								<li>사단법인 굿네이버스 인터내셔날 | 사업자등록번호 105-82-13183 | 대표자 이일하</li>
+								<li>인재채용 | 후원·제휴문의 | 사이트맵 | 이용약관</li>
+								<li>회원상담센터 1544-7944 대표전화 02-6717-4000</li>
+							</ul>
+							</div>
+						<div class="copyright">
+							<p>COPYRIGHT &copy; GNI ALL RIGHT RESERVED</p>
+						</div>
+					</div>
+			</div>
+		</div>
+	</footer>
+	<!-- <style>
+	ul>li>a{display: block;padding: 5px 10px;}
+	.menu{width: 100%;line-height: 40;}
+	.menu:after{
+	content:"";
+	display: block;
+	margin-top: -9px;
+	width: 0;
+	border-bottom: 1px solid #000;
+	transition-duration:.4s;}
+	.menu.active:after{width: 100%;}
+	</style>
+	<div class="menu">menu</div>
+	<ul>
+		<li class="menu"><a href="#">menu</a></li>
+		<li class="menu"><a href="#">menu</a></li>
+		<li class="menu"><a href="#">menu</a></li>
+	</ul>
+	<script>
+	$("div.menu").hover(function(){
+		$(this).addClass("active");
+	},function(){
+		$(this).removeClass("active");
+	});
+	</script> -->
+ </body>
+</html>
